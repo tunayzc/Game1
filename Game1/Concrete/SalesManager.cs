@@ -17,7 +17,7 @@ namespace Game1.Concrete
             Console.WriteLine("---İndirim uygulandı---");
             Console.WriteLine("Kullanıcı Adı:" + " " + player.UserName);
             Console.WriteLine("İsim-Soyisim:" + " " + player.FirstName + " " + player.LastName);
-            Console.WriteLine("Toplam Ödeme:" + " " + bill);
+            Console.WriteLine("Oyun:" + game.Name + " , " + "Toplam Ödeme:" + " " + bill);
         }
     }
 }
